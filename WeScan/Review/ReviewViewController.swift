@@ -68,6 +68,8 @@ final class ReviewViewController: UIViewController {
         setupToolbar()
         setupConstraints()
         
+        toggleEnhancedImage()
+        
         title = NSLocalizedString("wescan.review.title", tableName: nil, bundle: Bundle(for: ReviewViewController.self), value: "Review", comment: "The review title of the ReviewController")
         navigationItem.rightBarButtonItem = doneButton
     }
