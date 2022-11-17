@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WeScanFramework'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WeScanFramework.'
+  s.version          = '2.0.0'
+  s.summary          = 'WeScan makes it easy to add scanning functionalities to your iOS app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'Its modelled after UIImagePickerController, which makes it a breeze to use.'
 TODO: Add long description of the pod here.
                        DESC
 

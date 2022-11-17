@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		282B179C2924B3C1EB607086 /* Pods_WeScanFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4037D4DA8D7A49D8E03C46E6 /* Pods-WeScanFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-WeScanFramework_Example/Pods-WeScanFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		56CAEC553E669BB78D299D48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		56CAEC553E669BB78D299D48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WeScanFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeScanFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		86D27DEF84A2A62783FACCBE /* Pods-WeScanFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WeScanFramework_Tests/Pods-WeScanFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93E416B57A84663B498CFC9D /* Pods-WeScanFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-WeScanFramework_Tests/Pods-WeScanFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8F597CDD916908BF8794880 /* Pods-WeScanFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-WeScanFramework_Example/Pods-WeScanFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D42BE808102FE821BAE1A141 /* WeScanFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WeScanFramework.podspec; path = ../WeScanFramework.podspec; sourceTree = "<group>"; };
-		EFF5ADE8E5F6338AC391B38B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D42BE808102FE821BAE1A141 /* WeScanFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WeScanFramework.podspec; path = ../WeScanFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFF5ADE8E5F6338AC391B38B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FFA404136FE6A9B832F50A8F /* Pods_WeScanFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				86D27DEF84A2A62783FACCBE /* Pods-WeScanFramework_Tests.debug.xcconfig */,
 				93E416B57A84663B498CFC9D /* Pods-WeScanFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
