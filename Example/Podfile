@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WeScanFramework_Example' do
+  pod 'WeScanFramework', :path => '../'
+
+  target 'WeScanFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
