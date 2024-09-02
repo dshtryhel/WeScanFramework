@@ -1,29 +1,47 @@
-# WeScanFramework
+# WeScan
 
-[![CI Status](https://img.shields.io/travis/dshtryhel/WeScanFramework.svg?style=flat)](https://travis-ci.org/dshtryhel/WeScanFramework)
-[![Version](https://img.shields.io/cocoapods/v/WeScanFramework.svg?style=flat)](https://cocoapods.org/pods/WeScanFramework)
-[![License](https://img.shields.io/cocoapods/l/WeScanFramework.svg?style=flat)](https://cocoapods.org/pods/WeScanFramework)
-[![Platform](https://img.shields.io/cocoapods/p/WeScanFramework.svg?style=flat)](https://cocoapods.org/pods/WeScanFramework)
+<p align="center">
+    <img width="900px" src="Assets/WeScan-Banner.jpg">
+</p>
 
-## Example
+<p align="center">
+<img src="https://app.bitrise.io/app/df00af454f27891d.svg?token=spjxNvzjnRqug6GfGM3_Lg"/>
+<img src="https://img.shields.io/cocoapods/l/WeScan.svg?style=flat"/>
+<img src="https://img.shields.io/cocoapods/p/WeScan.svg?style=flat"/>
+<img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat"/>
+</p>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+**WeScan** makes it easy to add scanning functionalities to your iOS app!
+It's modelled after `UIImagePickerController`, which makes it a breeze to use.
+
+- [Features](#features)
+- [Demo](#demo)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- [x] Fast and lightweight
+- [x] Live scanning of documents
+- [x] Edit detected rectangle
+- [x] Auto scan and flash support
+- [x] Support for both PDF and UIImage
+- [x] Translated to English, Chinese, Italian, Portuguese, and French
+- [ ] Batch scanning
+
+## Demo
+
+<p align="left">
+    <img width="350px" src="Assets/WeScan.gif">
+</p>
 
 ## Requirements
 
-## Installation
+- Swift 5.0
+- iOS 10.0+
 
-WeScanFramework is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'WeScanFramework'
-```
-
-## Author
-
-dshtryhel, 56920698+dshtryhel@users.noreply.github.com
-
-## License
-
-WeScanFramework is available under the MIT license. See the LICENSE file for more info.
+<br>
